@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MuchMoreMoods</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">MuchMoreMood</string>
+    <string name="adding_MBTE">Adding MBTE</string>
     <string name="action_settings">Settings</string>
+    <string name="add_mood">Add Mood</string>
+    <string name="add_Behaviour">Add Behaviour</string>
+    <string name="add_Thought">Add Thought</string>
+    <string name="add_Environment">Add Environment</string>
+    <string name="Button_DescPage">View Description Page</string>
+    <string name="title_activity_mbtedescription">MBTEDescription</string>
+    <string name="description_Page">MBTE Description</string>
+    <string name="Back_Main">Back To Main</string>
+    <string-array name="arrayMood">
+        <item >Mood1</item>
+        <item >Mood2</item>
+        <item >Mood3</item>
+        <item >Mood4</item>
+    </string-array>
+    <string-array name="arrayBehaviour">
+        <item >Behav1</item>
+        <item >Behav2</item>
+        <item >Behav3</item>
+        <item >Behav4</item>
+    </string-array>
+    <string-array name="arrayEnvironment">
+        <item >Env1</item>
+        <item >Env2</item>
+        <item >Env3</item>
+        <item >Env4</item>
+    </string-array>
+    <string-array name="arrayThought">
+        <item >Thought1</item>
+        <item >Thought2</item>
+        <item >Thought3</item>
+        <item >Thought4</item>
+    </string-array>
+    
+  
+    <string name="text_mood">Mood Decription</string>
+    <string name="Transfer">Transfer</string>
+    <string name="Text_Mood">Text Mood</string>
+    <string name="Text_Behaviour">Text Behaviour</string>
+    <string name="Text_Environment">Text Environment</string>
+     <string name="Text_Thought">Text Thought</string>
+    
 
 </resources>
