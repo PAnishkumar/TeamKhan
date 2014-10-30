@@ -13,32 +13,14 @@
         android:text="@string/adding_MBTE"
         android:textSize="30sp" />
 
-    <Button
-        android:id="@+id/btnTransfer"
-        android:layout_width="232dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnDscrPage"
-        android:layout_alignLeft="@+id/btnDscrPage"
-        android:layout_marginBottom="14dp"
-        android:gravity="center"
-        android:text="@string/Transfer" />
-
-    <Button
+    <!-- <Button
         android:id="@+id/btnDscrPage"
         android:layout_width="268dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
-        android:text="@string/Button_DescPage" />
-
-    <Spinner
-        android:id="@+id/spinnerThought"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnTransfer"
-        android:layout_alignLeft="@+id/spinnerEnvironment"
-        android:entries="@array/arrayThought" />
+        android:text="@string/Button_DescPage" /> -->
 
     <Spinner
         android:id="@+id/spinnerEnvironment"
@@ -47,15 +29,6 @@
         android:layout_alignLeft="@+id/spinnerBehaviour"
         android:layout_centerVertical="true"
         android:entries="@array/arrayEnvironment" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/spinnerThought"
-        android:layout_alignRight="@+id/textView4"
-        android:layout_marginBottom="17dp"
-        android:text="@string/add_Thought" />
 
     <Spinner
         android:id="@+id/spinnerBehaviour"
@@ -82,15 +55,6 @@
         android:layout_marginBottom="22dp"
         android:text="@string/add_Behaviour" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignTop="@+id/spinnerMood"
-        android:layout_marginTop="20dp"
-        android:text="@string/add_mood" />
-
     <Spinner
         android:id="@+id/spinnerMood"
         android:layout_width="111dp"
@@ -98,5 +62,41 @@
         android:layout_above="@+id/spinnerBehaviour"
         android:layout_alignLeft="@+id/spinnerBehaviour"
         android:entries="@array/arrayMood" />
+
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text="@string/Transfer" />
+
+    <Spinner
+        android:id="@+id/spinnerThought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerEnvironment"
+        android:layout_below="@+id/spinnerEnvironment"
+        android:entries="@array/arrayThought" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignTop="@+id/spinnerThought"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_Thought" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/spinnerMood"
+        android:text="@string/add_mood" />
 
 </RelativeLayout>

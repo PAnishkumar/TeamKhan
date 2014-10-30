@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
-	Button btnDescrPage, btnTransfer;
+	Button btnTransfer;
 	public Spinner spinnerMood, spinnerBehaviour, spinnerEnvironment, spinnerThought;
 	
 	@Override
@@ -20,14 +20,14 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		btnDescrPage = (Button) findViewById(R.id.btnDscrPage);
+		//btnDescrPage = (Button) findViewById(R.id.btnDscrPage);
 		btnTransfer = (Button) findViewById(R.id.btnTransfer);
 		spinnerMood = (Spinner)findViewById(R.id.spinnerMood);
 		spinnerBehaviour = (Spinner)findViewById(R.id.spinnerBehaviour);
 		spinnerEnvironment = (Spinner)findViewById(R.id.spinnerEnvironment);
 		spinnerThought= (Spinner) findViewById(R.id.spinnerThought);
 		
-		btnDescrPage.setOnClickListener(new View.OnClickListener() {
+		/*btnDescrPage.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 				startActivity(intent);
 				
 			}
-		});
+		});*/
 		
 		btnTransfer.setOnClickListener(new View.OnClickListener() {
 			

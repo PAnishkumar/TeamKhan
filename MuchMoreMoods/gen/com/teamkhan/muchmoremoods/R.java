@@ -31,23 +31,22 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090010;
-        public static final int btnDscrPage=0x7f090002;
-        public static final int btnMain=0x7f09000f;
-        public static final int btnTransfer=0x7f090001;
-        public static final int spinnerBehaviour=0x7f090005;
-        public static final int spinnerEnvironment=0x7f090004;
-        public static final int spinnerMood=0x7f09000a;
-        public static final int spinnerThought=0x7f090003;
-        public static final int textBehaviour=0x7f09000c;
-        public static final int textEnvironment=0x7f09000d;
-        public static final int textMood=0x7f09000b;
-        public static final int textThought=0x7f09000e;
+        public static final int action_settings=0x7f09000f;
+        public static final int btnMain=0x7f09000e;
+        public static final int btnTransfer=0x7f090007;
+        public static final int spinnerBehaviour=0x7f090002;
+        public static final int spinnerEnvironment=0x7f090001;
+        public static final int spinnerMood=0x7f090006;
+        public static final int spinnerThought=0x7f090008;
+        public static final int textBehaviour=0x7f09000b;
+        public static final int textEnvironment=0x7f09000c;
+        public static final int textMood=0x7f09000a;
+        public static final int textThought=0x7f09000d;
         public static final int textView1=0x7f090000;
-        public static final int textView2=0x7f090008;
+        public static final int textView2=0x7f090003;
         public static final int textView3=0x7f090009;
-        public static final int textView4=0x7f090007;
-        public static final int textView5=0x7f090006;
+        public static final int textView4=0x7f090005;
+        public static final int textView5=0x7f090004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
