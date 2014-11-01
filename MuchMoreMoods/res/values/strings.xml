@@ -13,17 +13,30 @@
     <string name="description_Page">MBTE Description</string>
     <string name="Back_Main">Back To Main</string>
     <string-array name="arrayMood">
-        <item >Mood1</item>
-        <item >Mood2</item>
-        <item >Mood3</item>
-        <item >Mood4</item>
+        <item >Accepted</item>
+        <item >Accomplished</item>
+        <item >Alone</item>
+        <item >Amused</item>
+        <item >Angry</item>
+        <item >Annoyed</item>
+        <item >Ashamed</item>
+        <item >Bored</item>
+        <item >Disappointed</item>
+        <item >Drunk</item>
+        <item >Happy</item>
+        <item >Mad</item>
     </string-array>
     <string-array name="arrayBehaviour">
-        <item >Behav1</item>
-        <item >Behav2</item>
-        <item >Behav3</item>
-        <item >Behav4</item>
-    </string-array>
+        <item >Active</item>
+        <item >Carless</item>
+        <item >Curiouse</item>
+        <item >Docile</item>
+        <item >Impulsive</item>
+        <item >Nervous</item>
+        <item >Shy</item>
+        <item >Trustworthy</item>
+        <item >Volatile</item>
+   </string-array>
     <string-array name="arrayEnvironment">
         <item >Env1</item>
         <item >Env2</item>

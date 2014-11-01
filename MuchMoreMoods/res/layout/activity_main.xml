@@ -13,15 +13,6 @@
         android:text="@string/adding_MBTE"
         android:textSize="30sp" />
 
-    <!-- <Button
-        android:id="@+id/btnDscrPage"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:text="@string/Button_DescPage" /> -->
-
     <Spinner
         android:id="@+id/spinnerEnvironment"
         android:layout_width="wrap_content"
