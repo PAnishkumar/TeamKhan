@@ -7,14 +7,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
 	Button btnTransfer;
-	public Spinner spinnerMood, spinnerBehaviour, spinnerEnvironment, spinnerThought;
-	
+	public Spinner spinnerMood, spinnerBehaviour;
+	public EditText editTextThought,  editTextEnvironment;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -24,8 +25,8 @@ public class MainActivity extends Activity {
 		btnTransfer = (Button) findViewById(R.id.btnTransfer);
 		spinnerMood = (Spinner)findViewById(R.id.spinnerMood);
 		spinnerBehaviour = (Spinner)findViewById(R.id.spinnerBehaviour);
-		spinnerEnvironment = (Spinner)findViewById(R.id.spinnerEnvironment);
-		spinnerThought= (Spinner) findViewById(R.id.spinnerThought);
+		editTextEnvironment = (EditText)findViewById(R.id.editTextEnvironment);
+		editTextThought= (EditText) findViewById(R.id.editTextThought);
 				
 		btnTransfer.setOnClickListener(new View.OnClickListener() {
 			
@@ -34,8 +35,8 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				String mood = spinnerMood.getSelectedItem().toString();
 				String behav = spinnerBehaviour.getSelectedItem().toString();
-				String envi = spinnerEnvironment.getSelectedItem().toString();
-				String thought = spinnerThought.getSelectedItem().toString();
+				String envi = editTextEnvironment.getText().toString();
+				String thought = editTextThought.getText().toString();
 				
 				
 					Intent im = new Intent(MainActivity.this ,MBTEDescription.class);
